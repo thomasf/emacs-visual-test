@@ -17,3 +17,13 @@ Open an html or org file, get to a certain position and centering in the documen
 - [ ] x11
 - [ ] terminal
 - [ ] osx
+* TODO Milestone 2
+** TODO Report on available visual testing tools
+** TODO compare areas?
+
+
+
+* TODO Milestone 3
+** TODO Run headless
+- maybe using virtualbox
+- maybe only linux (at least for a start)
