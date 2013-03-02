@@ -1,0 +1,19 @@
+* emacs-visual-test
+Visual testing for emacs
+
+* why?
+[[https://github.com/bbatsov/solarized-emacs/blob/master/solarized.el][solarized.el]] just broke 1000 lines.
+
+* NEXT Milestone 1
+** TODO Create a small emacs configuration that includes some packages
+- [ ] web-mode
+- [ ] auto-complete
+** TODO Assemble sample files related to the packages
+- [ ] html files
+- [ ] org mode files
+** TODO Implement prototype with user interface automation
+Open an html or org file, get to a certain position and centering in the document and produce a auto-complete popup.
+** TODO snapshots 
+- [ ] x11
+- [ ] terminal
+- [ ] osx
