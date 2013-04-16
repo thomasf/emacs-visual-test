@@ -16,3 +16,25 @@
 ;;                 ''     ''
 
 ")
+
+
+(defconst emacsd-directory (file-name-directory load-file-name))
+(defun add-to-load-path (path &optional dir)
+  (setq load-path
+        (cons (expand-file-name path (or dir emacsd-directory)) load-path)))
+
+(add-to-load-path "site-lisp")
+
+(defconst user-themes-directory
+  (expand-file-name "themes" emacsd-directory))
+
+;; emacs23 compat
+(if (boundp 'custom-theme-load-path)
+    (add-to-list 'custom-theme-load-path user-themes-directory)
+  (add-to-list 'load-path user-themes-directory))
+
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+(load-theme 'solarized-dark t)
+
