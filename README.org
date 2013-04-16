@@ -8,6 +8,7 @@ Visual testing for emacs
 ** TODO Create a small emacs configuration that includes some packages
 - [ ] web-mode
 - [ ] auto-complete
+- [ ] solarized
 ** TODO Assemble sample files related to the packages
 - [ ] html files
 - [ ] org mode files
@@ -20,7 +21,6 @@ Open an html or org file, get to a certain position and centering in the documen
 * TODO Milestone 2
 ** TODO Report on available visual testing tools
 ** TODO compare areas?
-
 
 
 * TODO Milestone 3
