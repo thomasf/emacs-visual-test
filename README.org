@@ -6,24 +6,28 @@ Visual testing for emacs
 
 * NEXT Milestone 1
 ** TODO Create a small emacs configuration that includes some packages
-- [ ] web-mode
-- [ ] auto-complete
-- [ ] solarized
++ [ ] web-mode
++ [ ] auto-complete
 ** TODO Assemble sample files related to the packages
-- [ ] html files
-- [ ] org mode files
++ [ ] html files
++ [ ] org mode files
 ** TODO Implement prototype with user interface automation
 Open an html or org file, get to a certain position and centering in the document and produce a auto-complete popup.
 ** TODO snapshots 
-- [ ] x11
-- [ ] terminal
-- [ ] osx
++ [ ] x11
++ [ ] terminal
++ [ ] osx
 * TODO Milestone 2
-** TODO Report on available visual testing tools
-** TODO compare areas?
-
-
+** TODO Maybe use an available visual testing tools
++ [ ] Report on methods and frameworks
++ [ ] Maybe use one
+** TODO Use a emacs test framework
++ [ ] List requirements
++ [ ] Choose framework
++ [ ] Implement framework in test code
 * TODO Milestone 3
+** TODO Navigable reports for maual compare/diff/verification/...
++ [ ] Simple html and maybe js-report.
 ** TODO Run headless
-- maybe using virtualbox
-- maybe only linux (at least for a start)
++ [ ] Maybe using virtualbox
++ [ ] Maybe only linux (at least for a start)
